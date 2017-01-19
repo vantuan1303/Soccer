@@ -12,6 +12,7 @@
 		610180601E2B68370056417D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6101805E1E2B68370056417D /* Main.storyboard */; };
 		610180621E2B68370056417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610180611E2B68370056417D /* Assets.xcassets */; };
 		610180651E2B68370056417D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610180631E2B68370056417D /* LaunchScreen.storyboard */; };
+		6101E1D81E2FC8530030A01A /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6101E1D71E2FC8530030A01A /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		610180611E2B68370056417D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		610180641E2B68370056417D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		610180661E2B68370056417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6101E1D71E2FC8530030A01A /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		610180591E2B68370056417D /* Soccer */ = {
 			isa = PBXGroup;
 			children = (
+				6101E1D61E2FC8330030A01A /* Resources */,
 				6101805A1E2B68370056417D /* AppDelegate.swift */,
 				6101805C1E2B68370056417D /* ViewController.swift */,
 				6101805E1E2B68370056417D /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				610180661E2B68370056417D /* Info.plist */,
 			);
 			path = Soccer;
+			sourceTree = "<group>";
+		};
+		6101E1D61E2FC8330030A01A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6101E1D71E2FC8530030A01A /* ball.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				610180651E2B68370056417D /* LaunchScreen.storyboard in Resources */,
 				610180621E2B68370056417D /* Assets.xcassets in Resources */,
+				6101E1D81E2FC8530030A01A /* ball.png in Resources */,
 				610180601E2B68370056417D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +296,7 @@
 				6101806B1E2B68370056417D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
